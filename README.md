@@ -4,4 +4,6 @@
 
 ## 2024/ 2
 
-## Iniciando com GitEFV
+## Iniciando com Git
+
+Clonar repositorio
