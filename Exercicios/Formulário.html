@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Usuario</title>
+</head>
+
+<body>
+
+    <nav>
+        <ul>
+
+        </ul>
+    </nav>
+
+    <!-- Formularios-->
+
+    <form>
+        <h2> Cadastro de Usuario</h2>
+
+        <label for="nome">Nome:</label>
+        <input type="text" placeholder="Nome Completo" name="nome">
+        <br>
+        <br>
+
+        <label for="Telefone"> Telefone: </label>
+        <input type="text" placeholder="00-00000-0000" name="Telefone">
+        <br>
+        <br>
+
+        <label for="email">Email:</label>
+        <input type="email" placeholder="xxxxx@xxxx.com" name="email">
+        <br>
+        <br>
+
+        <label for="senha">Senha:</label>
+        <input type="text" placeholder="Senha" name="senha">
+
+        <br>
+        <br>
+        <label for="sexo">Sexo:</label><br>
+        <input type="radio" id="masculino" name="sexo" value="masculino">
+        <label for="masculino">Masculino</label>
+        <input type="radio" id="feminino" name="sexo" value="feminino">
+        <label for="feminino">Feminino</label>
+        <br>
+        
+
+        <br>
+        <br>
+        UF
+        <select>
+            <option value="DF">DF</option>
+        </select>
+        <br>
+        <br>
+        
+        <label for="hoobies">Hobbies</label>
+        <fieldset>
+          <input type="checkbox" name="hobbies" value="futebol">Futebol
+          <input type="checkbox" name="hobbies" value="xadrez">Xadrez
+          <input type="checkbox" name="hobbies" value="esportes">Esportes
+          <input type="checkbox" name="hobbies" value="musica">Musica
+          <input type="checkbox" name="hobbies" value="cinema">Cinema
+          <input type="checkbox" name="hobbies" value="leitura">Leitura
+        </fieldset>
+
+        <label for="observacao">Observação:</label><br>
+        <textarea id="observacao" name="observacao" rows="4" cols="50"></textarea>
+        <br>
+        <br>
+
+        <button type="menu">Voltar</button>
+        <button type="submit">Limpar</button>
+        <button type="reset"> Salvar</button>
+        
+
+    </form>
+
+
+
+</body>
+
+</html>
